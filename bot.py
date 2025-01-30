@@ -26,11 +26,11 @@ chats_collection = db['chats']
 files_collection = db['files']
 
 # Gemini API setup
-genai.configure(api_key='AIzaSyBSZ1pQbTmi-lndKbSycUeguiecnvX2cH8')
+genai.configure(api_key='Gemini api key')
 model = genai.GenerativeModel('gemini-pro')
 
 # Telegram Bot Token
-TOKEN = '7623560646:AAHdr6C4c1Jk-KlvI5bF0-pB3p8AbSJgZhI'
+TOKEN = 'Telegram Bit Kry'
 
 # Ensure the downloads directory exists
 if not os.path.exists('downloads'):
